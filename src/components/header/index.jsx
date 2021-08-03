@@ -18,7 +18,7 @@ export function Header() {
               </li>
             </ul>
           </S.WrapperMenuItem>
-          <S.WrapperMenuItem>
+          <S.WrapperMenuItem2>
             <ul>
               <li>
                 <img src={Gps} alt="" />{" "}
@@ -28,19 +28,19 @@ export function Header() {
                 <img src={Email} alt="" /> <span>Fale Conosco</span>
               </li>
             </ul>
-          </S.WrapperMenuItem>
+          </S.WrapperMenuItem2>
         </S.ContainerMain>
       </S.GrayDiv>
 
       <S.DivLogo>
-        <S.ContainerMain>
+        <S.ContainerLogo>
           <img src={Logo} alt="" />
 
           <S.WrapperTelephone>
             <h3>CENTRAL DE ATENDIMENTO </h3>
             <span>(31) 3123-1234 </span>
           </S.WrapperTelephone>
-        </S.ContainerMain>
+        </S.ContainerLogo>
       </S.DivLogo>
     </>
   );
