@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import { Container } from "../container/index.jsx";
+import media from "styled-media-query";
 
 export const ContainerMain = styled(Container)`
   padding-top: 6.25rem;
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 
   @media (max-width: 600px) {
     padding-top: 3.25rem;
@@ -21,6 +22,10 @@ export const Title = styled.div`
     font-size: 1.125rem;
   }
 
+  ${media.lessThan("large")`
+    margin-left: 0;
+  `}
+
   @media (max-width: 600px) {
     margin-left: 0;
     h2 {
@@ -28,7 +33,7 @@ export const Title = styled.div`
       font-size: 1.5rem;
     }
     span {
-      font-size: 16px;
+      font-size: 1rem;
       text-align: center;
       display: block;
     }
@@ -39,11 +44,15 @@ export const WrapperCars = styled.div`
   margin-top: 1.8125rem;
   margin-left: -1.25rem;
   display: flex;
-  gap: 14px;
+  gap: 0.875rem;
+
+  ${media.lessThan("large")`
+    margin-left: 0;
+  `}
 
   @media (max-width: 900px) {
     margin-left: 0;
-    gap: 11px;
+    gap: 0.6875rem;
   }
 
   @media (max-width: 600px) {
@@ -63,34 +72,34 @@ export const SingleCar = styled.div`
  max-width: 16.875rem;
   width: 100%;
   height: 21.875rem;
-  border: 1px solid #d5d5d5;
-  padding: 0 29px 22px 29px;
+  border: 0.0625rem solid #d5d5d5;
+  padding: 0 1.8125rem 1.375rem 1.8125rem;
 
   img {
     margin: 0 auto;
   }
   p {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   button {
     width: 100%;
-    max-width: 230px;
-    line-height: 36px;
-    margin-top: 20px;
+    max-width: 14.375rem;
+    line-height: 2.25rem;
+    margin-top: 1.25rem;
 
     border: 1px solid #d5d5d5;
-    border-radius: 4px;
+    border-radius: 0.25rem;
 
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Roboto", "sans-serif";
   }
 
   @media (max-width: 600px) {
-    max-width: 335px;
-    height: 196px; 
-    padding: 0 27px 16px 26px;  
+    max-width: 20.9375rem;
+    height: 12.25rem; 
+    padding: 0 1.6875rem 1rem 1.625rem;  
 
     p{
       display: none;
@@ -105,16 +114,16 @@ export const SingleCar = styled.div`
 export const WrapperImage = styled.div`
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 1.75rem;
 `;
 
 export const Button = styled.button`
   width: 100%;
   line-height: 36px;
-  border: 1px solid #d5d5d5;
-  border-radius: 4px;
+  border: 0.0625rem solid #d5d5d5;
+  border-radius: 0.25rem;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   display: none;
 
   @media (max-width: 600px) {

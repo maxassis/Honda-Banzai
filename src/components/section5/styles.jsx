@@ -8,7 +8,7 @@ export const ContainerExternal = styled.div`
 
 export const ContainerMain = styled(Container)`
   padding-top: 1.1875rem;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ export const WrapperBoxes = styled.div`
 
   ${media.lessThan("medium")`
     flex-direction: column;
-    gap: 9px;
+    gap: 0.5625rem;
   `}
 `;
 
@@ -36,11 +36,11 @@ export const Box = styled.div`
   background-color: #ffffff;
   border: 0.0625rem solid #df0209;
   border-radius: 0.3125rem;
-  gap: 17.13px;
+  gap: 1.0706rem;
 
   @media (max-width: 600px) {
-    width: 270px;
-    height: 80px;
+    width: 16.875rem;
+    height: 5rem;
   }
 `;
 
@@ -59,14 +59,14 @@ export const Contact = styled.div`
 export const Contact2 = styled.div`
   span {
     text-align: left;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: italic;
-    letter-spacing: -0.7px;
+    letter-spacing: -0.0437rem;
     color: #727b7a;
   }
   h4 {
     text-align: left;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-style: italic;
     color: #df0209;
   }
@@ -74,14 +74,14 @@ export const Contact2 = styled.div`
 
 export const WrapperSocialIcons = styled.div`
   display: flex;
-  gap: 19px;
+  gap: 1.1875rem;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 `;
 
 export const SocialIcon = styled.div`
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   background-color: #c5c5c5;
   display: flex;
@@ -91,13 +91,13 @@ export const SocialIcon = styled.div`
 
 export const FollowText = styled.h4`
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: italic;
-  margin-top: 17px;
+  margin-top: 1.0625rem;
 
   ${media.lessThan("medium")`
-    margin-top: 26px;
-    font-size: 18px;
+    margin-top: 1.625rem;
+    font-size: 1.125rem;
     font-weight: 100;
   `}
 `;

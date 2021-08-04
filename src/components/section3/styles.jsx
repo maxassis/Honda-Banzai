@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import PainelPhoto from "../../assets/imgs/painel.png";
 import { Container } from "../container/index.jsx";
+import media from "styled-media-query";
 
 export const Painel = styled.div`
   width: 100%;
@@ -33,6 +34,9 @@ export const WrapperCarrousel = styled.div`
   margin-top: 2.8125rem;
   margin-left: -20px;
 
+  ${media.lessThan("large")`
+  margin-left: 0;
+  `}
   @media (max-width: 900px) {
     display: flex;
     margin: 2.8125rem auto;

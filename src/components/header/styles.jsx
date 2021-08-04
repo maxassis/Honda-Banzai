@@ -39,8 +39,8 @@ export const ContainerLogo = styled(Container)`
     align-items: center;
 
     img {
-      width: 200px;
-      height: 51px;
+      width: 12.5rem;
+      height: 3.1875rem;
     }
   }
 `;
@@ -96,7 +96,7 @@ export const DivLogo = styled.div`
 export const WrapperTelephone = styled.div`
   h3 {
     font: italic 1rem ☞;
-    letter-spacing: -0.7px;
+    letter-spacing: -0.0437rem;
     color: #727b7a;
   }
 

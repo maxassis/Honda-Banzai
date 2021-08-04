@@ -33,3 +33,8 @@ dentro da pasta do projeto execute o comando para rodar a aplicação
 
 ## Telas
 
+![](https://raw.githubusercontent.com/maxassis/Honda-Banzai/master/src/assets/imgs/screen1.png?token=AOBXVP3AMHB3NPKJEJJVCEDBBMKBY)
+
+![](https://raw.githubusercontent.com/maxassis/Honda-Banzai/master/src/assets/imgs/screen2.png?token=AOBXVP5T6D7LAE2C2BFKWCDBBMKG2)
+
+![](https://raw.githubusercontent.com/maxassis/Honda-Banzai/master/src/assets/imgs/screen3.png?token=AOBXVP3R6DUXOBDOKLMCR63BBMKI4)

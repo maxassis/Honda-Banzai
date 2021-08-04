@@ -1,43 +1,50 @@
 import styled from "styled-components";
 import { Container } from "../container/index.jsx";
+import media from "styled-media-query";
 
 export const ContainerMain = styled(Container)`
-  padding-bottom: 53px;
+  padding-bottom: 3.3125rem;
 
   h2 {
     font-size: 2.125rem;
     font-weight: 100;
     font-style: italic;
-    margin-left: -20px;
+    margin-left: -1.25rem;
   }
 
   p {
     margin-top: 2.1875rem;
-    margin-left: -20px;
+    margin-left: -1.25rem;
     width: 100%;
-    max-width: 843px;
+    max-width: 52.6875rem;
   }
 
+  ${media.lessThan("large")`
+    h2{
+      margin-left: 0;
+    }
+  `}
+
   @media (max-width: 900px) {
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 
     h2 {
       margin-left: 0;
       text-align: center;
-      height: 59px;
+      height: 3.6875rem;
     }
 
     p {
       margin-left: 0;
       text-align: center;
-      font-size: 18px;
-      height: 143px;
+      font-size: 1.125rem;
+      height: 8.9375rem;
     }
   }
 
   @media (max-width: 480px) {
     h2 {
-      font-size: 24px;
+      font-size: 1.5rem;
     }
   }
 `;
@@ -45,8 +52,12 @@ export const ContainerMain = styled(Container)`
 export const DivPhotos = styled.div`
   display: flex;
   margin-top: 1.875rem;
-  gap: 40px;
-  margin-left: -20px;
+  gap: 2.5rem;
+  margin-left: -1.25rem;
+
+  ${media.lessThan("large")`
+    margin-left: 0;
+  `}
 
   @media (max-width: 900px) {
     margin-left: none;
@@ -83,7 +94,7 @@ export const WrapperCars = styled.div`
     margin: 0 auto;
 
     img {
-      margin-top: 14px;
+      margin-top: 0.875rem;
     }
   }
 `;

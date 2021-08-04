@@ -15,17 +15,19 @@ img {
   max-width: 100%;
   display: block;
 }
-/* 
- html {
-  @media (max-width: 480px) {
-    font-size: 12px;
-}
-}  */
 
 button {
   background-color: transparent;
   cursor: pointer;
 }
+
+.swiper-pagination-bullet {
+  background: gray;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+
 
 `;
 
