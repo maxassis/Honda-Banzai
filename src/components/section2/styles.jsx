@@ -17,6 +17,23 @@ export const ContainerMain = styled(Container)`
     width: 100%;
     max-width: 843px;
   }
+
+  @media (max-width: 900px) {
+    padding-bottom: 30px;
+
+    h2 {
+      margin-left: 0;
+      text-align: center;
+      height: 59px;
+    }
+
+    p {
+      margin-left: 0;
+      text-align: center;
+      font-size: 18px;
+      height: 143px;
+    }
+  }
 `;
 
 export const DivPhotos = styled.div`
@@ -24,6 +41,11 @@ export const DivPhotos = styled.div`
   margin-top: 1.875rem;
   gap: 40px;
   margin-left: -20px;
+
+  @media (max-width: 900px) {
+    margin-left: none;
+    margin-left: 0px;
+  }
 `;
 
 export const Column = styled.div`
@@ -35,6 +57,10 @@ export const Column = styled.div`
   img:nth-child(1) {
     margin-top: 0px;
   }
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const WrapperCars = styled.div`
@@ -44,5 +70,14 @@ export const WrapperCars = styled.div`
 
   img {
     margin-top: 3.625rem;
+  }
+
+  @media (max-width: 900px) {
+    height: auto;
+    margin: 0 auto;
+
+    img {
+      margin-top: 14px;
+    }
   }
 `;
