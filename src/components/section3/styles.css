@@ -1,0 +1,9 @@
+.mySwiper {
+  height: 400px;
+}
+
+.swiper-pagination-bullet {
+  background: gray;
+  width: 0.75rem;
+  height: 0.75rem;
+}

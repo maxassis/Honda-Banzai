@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Container } from "../container/index.jsx";
 
 export const ContainerMain = styled(Container)`
-  padding-bottom: 23px;
+  padding-bottom: 53px;
 
   h2 {
     font-size: 2.125rem;
