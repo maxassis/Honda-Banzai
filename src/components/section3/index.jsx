@@ -26,6 +26,9 @@ export function Section3() {
             className="mySwiper"
             slidesPerView={3}
             spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
             breakpoints={{
               320: {
                 slidesPerView: 1,

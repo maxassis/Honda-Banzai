@@ -39,7 +39,7 @@ export const WrapperCars = styled.div`
   margin-top: 1.8125rem;
   margin-left: -1.25rem;
   display: flex;
-  gap: 30px;
+  gap: 14px;
 
   @media (max-width: 900px) {
     margin-left: 0;

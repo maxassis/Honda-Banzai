@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Background from "../../assets/imgs/back.png";
+import Background from "../../assets/imgs/back2.png";
 import User from "../../assets/imgs/user.svg";
 import Email from "../../assets/imgs/mail2.svg";
 import Tel from "../../assets/imgs/tel2.svg";
@@ -51,7 +51,7 @@ export const WrapperContactBox = styled.div`
   background: #eeeeee;
   box-shadow: 0rem 0rem 0.3125rem #00000029;
   border-radius: 0.25rem;
-  margin-right: -3.75rem;
+  margin-right: -5.75rem;
   margin-top: 4.9375rem;
   padding: 1.1875rem 1.25rem 1.25rem 1.25rem;
   top: 121px;
