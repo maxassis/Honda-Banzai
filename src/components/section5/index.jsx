@@ -31,7 +31,7 @@ export function Section5() {
           </S.Box>
         </S.WrapperBoxes>
 
-        <h4>SIGA A BANZAI NAS REDES SOCIAIS</h4>
+        <S.FollowText>SIGA A BANZAI NAS REDES SOCIAIS</S.FollowText>
 
         <S.WrapperSocialIcons>
           <S.SocialIcon>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Container } from "../container/index.jsx";
+import media from "styled-media-query";
 
 export const ContainerExternal = styled.div`
   background-color: #eeeeee;
@@ -12,13 +13,6 @@ export const ContainerMain = styled(Container)`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  h4 {
-    text-align: center;
-    font-size: 24px;
-    font-style: italic;
-    margin-top: 17px;
-  }
 `;
 
 export const WrapperBoxes = styled.div`
@@ -26,6 +20,12 @@ export const WrapperBoxes = styled.div`
   gap: 1.875rem;
   width: 56%;
   margin: 0 auto;
+
+  ${media.lessThan("medium")`
+    flex-direction: column;
+    width: 36%;
+    gap: 9px;
+  `}
 `;
 
 export const Box = styled.div`
@@ -84,4 +84,17 @@ export const SocialIcon = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+`;
+
+export const FollowText = styled.h4`
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 17px;
+
+  ${media.lessThan("medium")`
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 100;
+  `}
 `;
