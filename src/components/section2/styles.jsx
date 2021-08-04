@@ -34,6 +34,12 @@ export const ContainerMain = styled(Container)`
       height: 143px;
     }
   }
+
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 24px;
+    }
+  }
 `;
 
 export const DivPhotos = styled.div`

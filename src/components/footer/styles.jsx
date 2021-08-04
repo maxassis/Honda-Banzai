@@ -4,10 +4,15 @@ import { Container } from "../container/index.jsx";
 export const ContainerMain = styled(Container)`
   padding-top: 16px;
   padding-bottom: 15px;
+
+  @media (max-width: 600px) {
+    padding-bottom: 48px;
+  }
 `;
 
 export const WrapperLogos = styled.div`
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: 52px;
   display: flex;
   align-items: center;
@@ -17,6 +22,12 @@ export const WrapperLogos = styled.div`
   img:nth-child(1) {
     width: 110px;
     height: 28px;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    height: auto;
+    gap: 28.7px;
   }
 `;
 

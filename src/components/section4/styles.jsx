@@ -109,7 +109,7 @@ export const WrapperImage = styled.div`
 `;
 
 export const Button = styled.button`
-  width: 335px;
+  width: 100%;
   line-height: 36px;
   border: 1px solid #d5d5d5;
   border-radius: 4px;

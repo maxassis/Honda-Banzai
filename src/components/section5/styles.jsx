@@ -18,19 +18,17 @@ export const ContainerMain = styled(Container)`
 export const WrapperBoxes = styled.div`
   display: flex;
   gap: 1.875rem;
-  width: 56%;
+  width: auto;
   margin: 0 auto;
 
   ${media.lessThan("medium")`
     flex-direction: column;
-    width: 36%;
     gap: 9px;
   `}
 `;
 
 export const Box = styled.div`
-  width: 100%;
-  max-width: 16.875rem;
+  width: 16.875rem;
   height: 5rem;
   display: flex;
   align-items: center;
@@ -39,6 +37,11 @@ export const Box = styled.div`
   border: 0.0625rem solid #df0209;
   border-radius: 0.3125rem;
   gap: 17.13px;
+
+  @media (max-width: 600px) {
+    width: 270px;
+    height: 80px;
+  }
 `;
 
 export const Contact = styled.div`
