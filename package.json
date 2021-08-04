@@ -7,6 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@styled-icons/boxicons-logos": "^10.37.0",
+    "@styled-icons/material-sharp": "^10.34.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "styled-components": "^5.3.0",

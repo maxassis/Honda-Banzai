@@ -26,6 +26,24 @@ export function Section3() {
             className="mySwiper"
             slidesPerView={3}
             spaceBetween={30}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 16,
+              },
+              600: {
+                slidesPerView: 2.7,
+                spaceBetween: 15,
+              },
+              900: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+              1200: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+            }}
           >
             <SwiperSlide>
               <S.SingleSlider>

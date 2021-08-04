@@ -16,6 +16,7 @@ export const Painel = styled.div`
   @media (max-width: 900px) {
     background-image: none;
     background-size: contain;
+    height: auto;
 
     img {
       display: block;
@@ -31,6 +32,11 @@ export const WrapperCarrousel = styled.div`
   height: 350px;
   margin-top: 2.8125rem;
   margin-left: -20px;
+
+  @media (max-width: 900px) {
+    display: flex;
+    margin: 2.8125rem auto;
+  }
 `;
 
 export const SingleSlider = styled.div`

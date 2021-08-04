@@ -1,5 +1,9 @@
 .mySwiper {
   height: 400px;
+
+  @media (max-width: 480px) {
+    height 180px;
+  }
 }
 
 .swiper-pagination-bullet {

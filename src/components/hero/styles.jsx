@@ -55,6 +55,7 @@ export const WrapperContactBox = styled.div`
   margin-top: 4.9375rem;
   padding: 1.1875rem 1.25rem 1.25rem 1.25rem;
   top: 121px;
+  z-index: 1000;
 
   @media (max-width: 1200px) {
     margin-right: 0px;

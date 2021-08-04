@@ -15,12 +15,12 @@ img {
   max-width: 100%;
   display: block;
 }
-
+/* 
  html {
   @media (max-width: 480px) {
     font-size: 12px;
 }
-} 
+}  */
 
 button {
   background-color: transparent;
