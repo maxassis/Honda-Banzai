@@ -23,7 +23,7 @@ em seguida acesse a pasta do projeto e faça a instalação:
 
 dentro da pasta do projeto execute o comando para rodar a aplicação
 
-`npm start`
+`npm run dev`
 
 
 
